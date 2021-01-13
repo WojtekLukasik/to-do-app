@@ -1,0 +1,103 @@
+.tasks__add {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks__add__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  width: 100%;
+  font-size: 2vmax;
+  font-weight: bold;
+}
+
+.tasks__add__input {
+  margin: 10%;
+  height: 4%;
+  font-size: 150%;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 2px solid rgb(38, 38, 38);
+  outline: none;
+  transition: 0.5s;
+}
+
+.tasks__add__input:focus {
+  border-bottom: 3px solid orange;
+}
+
+.date__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks__add__date {
+  color: white;
+  width: 50%;
+  font-size: 190%;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  transition: 0.5s;
+  border-bottom: 2px solid rgb(38, 38, 38);
+}
+
+.tasks__add__date:focus {
+  border-bottom: 3px solid orange;
+}
+
+.tasks__add__text {
+  padding: 5%;
+  margin: 5%;
+  height: 55%;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+  transition: 0.5s;
+  font-size: 150%;
+  color: white;
+}
+
+.tasks__add__text:focus {
+  border-color: orange;
+}
+
+.important {
+  padding-left: 35%;
+  font-size: 150%;
+}
+
+.tasks__add__important {
+  margin-right: 4%;
+}
+
+.tasks__add--submit {
+  height: 8%;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: transparent;
+  border-style: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 150%;
+  outline: none;
+  transition: border-color 1s, transform 1s;
+}
+
+.tasks__add--submit:hover {
+  cursor: pointer;
+  border-color: orange;
+  transform: scale(1.05);
+}
+
+.tasks__add--submit:active {
+  background-color: orange;
+}

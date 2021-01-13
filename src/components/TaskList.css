@@ -1,0 +1,107 @@
+.tasks__active {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks__finished {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.task__list__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  width: 100%;
+  font-size: 2vmax;
+  font-weight: bold;
+}
+
+.active__list {
+  align-items: center;
+  width: 95%;
+  height: 86%;
+  margin-left: 2.5%;
+  background-color: transparent;
+  border: 2px solid white;
+  list-style: none;
+  padding: 2%;
+  overflow: auto;
+}
+
+.active__task {
+  font-size: 130%;
+  margin-bottom: 5%;
+  border-bottom: 2px solid white;
+}
+
+.active__task:hover {
+  background-color: ;
+}
+
+.active__task__header {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.active__task__content {
+  margin-top: 2%;
+}
+
+.active__task__bottom {
+  height: 5%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.active__task__bottom button {
+  border-radius: 5px;
+  background-color: transparent;
+  border-style: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 100%;
+  outline: none;
+  transition: border-color 1s, transform 1s;
+}
+.active__task__bottom button:hover {
+  cursor: pointer;
+  border-color: orange;
+  transform: scale(1.05);
+}
+.active__task__bottom button:active {
+  background-color: orange;
+}
+
+.active__task--finsh {
+  min-height: 30px;
+  min-width: 100px;
+  margin-left: 1%;
+}
+
+.active__task--delete {
+  min-width: 30px;
+  min-height: 30px;
+  margin-left: 1%;
+}
+
+.active__task__deadline {
+  margin-right: 35%;
+}
+
+::-webkit-scrollbar {
+  border-radius: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+}
+::-webkit-scrollbar-button {
+  background-color: rgb(38, 38, 38);
+}
