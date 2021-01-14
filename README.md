@@ -1,4 +1,4 @@
-#Live version on github pages
+# Live version on github pages
 https://wojteklukasik.github.io/to-do-app/
 
 ## Getting Started with Create React App
